@@ -6,7 +6,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Compilers?style=flat&color=yellow" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Compilers?style=flat&color=yellow" alt="GitHub_Stars"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Deep-Learning-Compilers?style=flat&color=orange" alt="GitHub Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Deep-Learning-Compilers" alt="Last Commit"></a>
@@ -62,61 +62,61 @@ The global AI compiler and kernel optimization market is estimated at **$310M–
 
 Curated open-source deep learning compilers, kernel optimization DSLs, inference runtimes, and high-performance execution engines—sorted in descending order of GitHub community stars.
 
-- [**llama.cpp**](https://github.com/ggerganov/llama.cpp) [![GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)
+- [**llama.cpp**](https://github.com/ggerganov/llama.cpp) [![GitHub_Stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)
   **Port of Facebook's LLaMA model in pure C/C++** (MIT). **The reference standard for quantized CPU and edge inference**. Features zero-dependency C/C++ architecture, state-of-the-art k-quants (2-bit to 8-bit integer quantization), and hardware acceleration across Apple Metal, ARM NEON, AVX-512, CUDA, and SYCL. **Best for**: on-device, local edge, and CPU-optimized LLM execution.
 
-- [**PyTorch (torch.compile / Inductor / TorchDynamo)**](https://github.com/pytorch/pytorch) [![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)
+- [**PyTorch (torch.compile / Inductor / TorchDynamo)**](https://github.com/pytorch/pytorch) [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)
   **Tensors and Dynamic neural networks in Python with strong GPU acceleration** (BSD-3-Clause). Introduces **`torch.compile`**, powered by **TorchDynamo** for Python frame capture, **AOTAutograd** for ahead-of-time graph tracing, and **TorchInductor** as the deep learning compiler generating optimized OpenAI Triton and C++ kernels. **Best for**: transparent out-of-the-box PyTorch training and inference compilation with zero code refactoring.
 
-- [**vLLM**](https://github.com/vllm-project/vllm) [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
+- [**vLLM**](https://github.com/vllm-project/vllm) [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
   **A high-throughput and memory-efficient inference and serving engine for LLMs** (Apache-2.0). **The production gold standard for enterprise LLM serving**. Pioneers **PagedAttention** for near-zero memory waste in KV caching, continuous batching, chunked prefill, and native OpenAI-compatible API serving. Integrates with FlashAttention, FlashInfer, and custom Triton kernels. **Best for**: high-concurrency LLM and vision-language model serving on NVIDIA, AMD ROCm, and AWS Neuron GPUs.
 
-- [**SGLang**](https://github.com/sgl-project/sglang) [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)
+- [**SGLang**](https://github.com/sgl-project/sglang) [![GitHub_Stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)
   **SGLang is a fast serving framework for large language models and vision language models** (Apache-2.0). Features **RadixAttention** for automatic KV cache reuse across multi-turn chats and shared prefixes, structured speculative decoding, and optimized execution pipelines. **Best for**: complex reasoning workflows, structured JSON generation, agentic multi-turn conversations, and ultra-high token throughput.
 
-- [**Taichi**](https://github.com/taichi-dev/taichi) [![GitHub stars](https://img.shields.io/github/stars/taichi-dev/taichi?style=social&color=white)](https://github.com/taichi-dev/taichi/stargazers)
+- [**Taichi**](https://github.com/taichi-dev/taichi) [![GitHub_Stars](https://img.shields.io/github/stars/taichi-dev/taichi?style=social&color=white)](https://github.com/taichi-dev/taichi/stargazers)
   **Productive & portable high-performance programming language for machine learning and graphics** (Apache-2.0). A high-performance domain-specific compiler embedded in Python that compiles imperative tensor operations directly to CUDA, Metal, Vulkan, and CPU vector instructions. **Best for**: custom differentiable physics, sparse neural networks, and high-performance kernel compilation.
 
-- [**ncnn**](https://github.com/Tencent/ncnn) [![GitHub stars](https://img.shields.io/github/stars/Tencent/ncnn?style=social&color=white)](https://github.com/Tencent/ncnn/stargazers)
+- [**ncnn**](https://github.com/Tencent/ncnn) [![GitHub_Stars](https://img.shields.io/github/stars/Tencent/ncnn?style=social&color=white)](https://github.com/Tencent/ncnn/stargazers)
   **High-performance neural network inference computing framework optimized for mobile platforms** (BSD-3-Clause). Developed by Tencent, ncnn is written in pure C++ with zero external dependencies, featuring extreme ARM NEON assembly optimizations, multi-core parallel scheduling, and Vulkan GPU acceleration. **Best for**: ultra-lightweight mobile applications, embedded IoT microcontrollers, and real-time vision on consumer hardware.
 
-- [**ONNX Runtime**](https://github.com/microsoft/onnxruntime) [![GitHub stars](https://img.shields.io/github/stars/microsoft/onnxruntime?style=social&color=white)](https://github.com/microsoft/onnxruntime/stargazers)
+- [**ONNX Runtime**](https://github.com/microsoft/onnxruntime) [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/onnxruntime?style=social&color=white)](https://github.com/microsoft/onnxruntime/stargazers)
   **Cross-platform, high-performance ML inferencing and training accelerator** (MIT). **The most widely deployed enterprise inference runtime**. Supports unified execution providers (EPs) including NVIDIA TensorRT, Intel OpenVINO, AMD ROCm, Qualcomm QNN, DirectML, and Apple Core ML. Powering production Microsoft services like Bing, Microsoft 365, and Azure AI. **Best for**: cross-platform portability without vendor lock-in.
 
-- [**OpenAI Triton**](https://github.com/triton-lang/triton) [![GitHub stars](https://img.shields.io/github/stars/triton-lang/triton?style=social&color=white)](https://github.com/triton-lang/triton/stargazers)
+- [**OpenAI Triton**](https://github.com/triton-lang/triton) [![GitHub_Stars](https://img.shields.io/github/stars/triton-lang/triton?style=social&color=white)](https://github.com/triton-lang/triton/stargazers)
   **Development environment for parallel programming and custom GPU kernel compilation** (MIT). A Python-based language and compiler that enables developers with no CUDA experience to write highly efficient GPU kernels that match or exceed vendor libraries. Backed by OpenAI, Meta, and Microsoft, and used as the primary backend compiler for PyTorch Inductor. **Best for**: writing custom fused attention, GEMM, and normalization kernels.
 
-- [**MNN (Alibaba)**](https://github.com/alibaba/MNN) [![GitHub stars](https://img.shields.io/github/stars/alibaba/MNN?style=social&color=white)](https://github.com/alibaba/MNN/stargazers)
+- [**MNN (Alibaba)**](https://github.com/alibaba/MNN) [![GitHub_Stars](https://img.shields.io/github/stars/alibaba/MNN?style=social&color=white)](https://github.com/alibaba/MNN/stargazers)
   **Blazing-fast, lightweight deep learning inference engine and compiler** (Apache-2.0). Alibaba's flagship mobile inference framework, heavily battle-tested on the Taobao app across hundreds of millions of daily active devices. Features comprehensive graph optimization, geometric computing, and hardware acceleration on ARM, OpenCL, and Vulkan. **Best for**: mobile and embedded client-side deep learning inference.
 
-- [**TensorRT-LLM**](https://github.com/NVIDIA/TensorRT-LLM) [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)
+- [**TensorRT-LLM**](https://github.com/NVIDIA/TensorRT-LLM) [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)
   **NVIDIA TensorRT-LLM provides users with an easy-to-use Python API to compile and run large language models** (Apache-2.0). Employs state-of-the-art kernel fusion, FP8/FP4 quantization, in-flight batching, and tensor parallelism across NVIDIA Hopper, Ada Lovelace, and Blackwell GPUs. **Best for**: extracting the absolute maximum LLM throughput and lowest latency from NVIDIA GPU infrastructure.
 
-- [**Apache TVM**](https://github.com/apache/tvm) [![GitHub stars](https://img.shields.io/github/stars/apache/tvm?style=social&color=white)](https://github.com/apache/tvm/stargazers)
+- [**Apache TVM**](https://github.com/apache/tvm) [![GitHub_Stars](https://img.shields.io/github/stars/apache/tvm?style=social&color=white)](https://github.com/apache/tvm/stargazers)
   **Open Machine Learning Compiler Framework for CPUs, GPUs, and Machine Learning Accelerators** (Apache-2.0). **The foundational open-source deep learning compiler framework**. Employs a cross-level compiler architecture combining **TensorIR** for tensor program optimization and **Relax** for graph-level transformations. Compiles models to minimal standalone executables across CUDA, ROCm, Vulkan, Metal, OpenCL, and microcontrollers via microTVM. **Best for**: teams seeking an open, vendor-neutral, hackable compilation stack spanning edge to datacenter.
 
-- [**NVIDIA TensorRT (Open-Source Components)**](https://github.com/NVIDIA/TensorRT) [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT?style=social&color=white)](https://github.com/NVIDIA/TensorRT/stargazers)
+- [**NVIDIA TensorRT (Open-Source Components)**](https://github.com/NVIDIA/TensorRT) [![GitHub_Stars](https://img.shields.io/github/stars/NVIDIA/TensorRT?style=social&color=white)](https://github.com/NVIDIA/TensorRT/stargazers)
   **NVIDIA TensorRT is an SDK for high-performance deep learning inference** (Apache-2.0 for open-source components). Houses open-source parsers (ONNX parser), custom plugins, sample applications, and PyTorch bindings (Torch-TensorRT) that accompany the proprietary TensorRT core compilation engine. **Best for**: developers targeting peak inference latency on NVIDIA GPUs with custom plugin requirements.
 
-- [**Triton Inference Server**](https://github.com/triton-inference-server/server) [![GitHub stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)
+- [**Triton Inference Server**](https://github.com/triton-inference-server/server) [![GitHub_Stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)
   **Enterprise multi-framework inference serving solution optimized for CPUs and GPUs** (BSD-3-Clause). Provides production HTTP/REST and gRPC endpoints, dynamic batching, concurrent model execution, model pipelining (Ensemble), and model metrics. Seamlessly orchestrates backends including TensorRT, ONNX Runtime, OpenVINO, PyTorch, and vLLM. **Best for**: unified production serving architecture across mixed hardware fleets.
 
-- [**Intel OpenVINO**](https://github.com/openvinotoolkit/openvino) [![GitHub stars](https://img.shields.io/github/stars/openvinotoolkit/openvino?style=social&color=white)](https://github.com/openvinotoolkit/openvino/stargazers)
+- [**Intel OpenVINO**](https://github.com/openvinotoolkit/openvino) [![GitHub_Stars](https://img.shields.io/github/stars/openvinotoolkit/openvino?style=social&color=white)](https://github.com/openvinotoolkit/openvino/stargazers)
   **Open-source toolkit for optimizing and deploying deep learning models on Intel architectures** (Apache-2.0). Maximizes throughput across Intel CPUs (AVX2/AVX-512/AMX), integrated GPUs, discrete Intel Arc GPUs, and Intel NPUs. Features advanced graph compilation, automatic INT8/INT4 quantization with NNCF, and optimized GenAI pipelines. **Best for**: edge and enterprise deployments committed to Intel silicon.
 
-- [**TNN (Tencent)**](https://github.com/Tencent/TNN) [![GitHub stars](https://img.shields.io/github/stars/Tencent/TNN?style=social&color=white)](https://github.com/Tencent/TNN/stargazers)
+- [**TNN (Tencent)**](https://github.com/Tencent/TNN) [![GitHub_Stars](https://img.shields.io/github/stars/Tencent/TNN?style=social&color=white)](https://github.com/Tencent/TNN/stargazers)
   **Uniform deep learning inference framework customized for mobile devices** (BSD-3-Clause). Features cross-platform acceleration targeting Android, iOS, Linux, and Windows, with high-performance kernel tuning for ARM CPU, Mali GPU, Adreno GPU, and Apple Metal. **Best for**: consumer mobile deployments requiring cross-platform compatibility.
 
-- [**OpenXLA (XLA)**](https://github.com/openxla/xla) [![GitHub stars](https://img.shields.io/github/stars/openxla/xla?style=social&color=white)](https://github.com/openxla/xla/stargazers)
+- [**OpenXLA (XLA)**](https://github.com/openxla/xla) [![GitHub_Stars](https://img.shields.io/github/stars/openxla/xla?style=social&color=white)](https://github.com/openxla/xla/stargazers)
   **Accelerated Linear Algebra (XLA) compiler for deep learning and machine learning** (Apache-2.0). An open-source domain-specific compiler for linear algebra that accelerates models in JAX, TensorFlow, and PyTorch (via PyTorch/XLA). Powers Google Cloud TPU infrastructure and delivers automated operator fusion and memory allocation across GPUs and TPUs. **Best for**: JAX workloads, large-scale TPU training/inference clusters, and custom ASIC hardware targets.
 
-- [**IREE**](https://github.com/iree-org/iree) [![GitHub stars](https://img.shields.io/github/stars/iree-org/iree?style=social&color=white)](https://github.com/iree-org/iree/stargazers)
+- [**IREE**](https://github.com/iree-org/iree) [![GitHub_Stars](https://img.shields.io/github/stars/iree-org/iree?style=social&color=white)](https://github.com/iree-org/iree/stargazers)
   **Intermediate Representation Execution Environment: Retargetable MLIR-based compiler and runtime** (Apache-2.0). Built entirely upon LLVM/MLIR, IREE lowers high-level machine learning models (from PyTorch, JAX, TFLite, and ONNX) into unified hardware-specific binaries for Vulkan, SPIR-V, Metal, CUDA, ROCm, and CPU SIMD. **Best for**: hardware vendors building compiler backends and teams desiring retargetable compilation.
 
-- [**Vitis AI (AMD/Xilinx)**](https://github.com/Xilinx/Vitis-AI) [![GitHub stars](https://img.shields.io/github/stars/Xilinx/Vitis-AI?style=social&color=white)](https://github.com/Xilinx/Vitis-AI/stargazers)
+- [**Vitis AI (AMD/Xilinx)**](https://github.com/Xilinx/Vitis-AI) [![GitHub_Stars](https://img.shields.io/github/stars/Xilinx/Vitis-AI?style=social&color=white)](https://github.com/Xilinx/Vitis-AI/stargazers)
   **Integrated Development Environment for AI inference acceleration on AMD adaptive platforms** (Apache-2.0). Provides model quantizers, graph optimizers, and Deep Learning Processor Unit (DPU) overlays tailored for AMD adaptable SoCs, Versal AI engines, and Alveo Data Center accelerator cards. **Best for**: FPGA-based embedded vision, industrial IoT, and real-time deterministic inference.
 
-- [**BladeDISC (Alibaba)**](https://github.com/alibaba/BladeDISC) [![GitHub stars](https://img.shields.io/github/stars/alibaba/BladeDISC?style=social&color=white)](https://github.com/alibaba/BladeDISC/stargazers)
+- [**BladeDISC (Alibaba)**](https://github.com/alibaba/BladeDISC) [![GitHub_Stars](https://img.shields.io/github/stars/alibaba/BladeDISC?style=social&color=white)](https://github.com/alibaba/BladeDISC/stargazers)
   **End-to-end DynamIc Shape Compiler for machine learning workloads** (Apache-2.0). An MLIR-based dynamic shape deep learning compiler supporting both TensorFlow and PyTorch frontends, optimized for GPUs and x86 CPUs with dynamic input dimensions and runtime shape variation. **Best for**: e-commerce and search workloads where dynamic sequence lengths cause overhead in static compilers.
 
 
@@ -126,7 +126,7 @@ We welcome contributions from ML engineers, systems researchers, and hardware ar
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 📝 **Add or edit entries** in [`README.md`](README.md) adhering to existing table/list formatting.
-3. 🔗 **Include clear details**: project name, official documentation/repo link, star badge, and target silicon backends.
+3. 🔗 **Include clear details**: project name, official documentation/repo link, Stars_Badge, and target silicon backends.
 4. 🚀 **Submit a Pull Request** with a succinct description of your addition.
 
 ⭐ **Star the repo** if you find it useful for your production AI stack!
@@ -173,3 +173,12 @@ Maintaining a high-quality, up-to-date directory of compiler toolchains, inferen
 
 ##  Star History
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Deep-Learning-Compilers&type=date&legen==top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Deep-Learning-Compilers&type=date&legend=top-left)
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Deep-Learning-Compilers&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Deep-Learning-Compilers_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Deep-Learning-Compilers_growth.svg">
+  </picture>
+</a>
