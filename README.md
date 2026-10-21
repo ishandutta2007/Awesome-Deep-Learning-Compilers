@@ -2,34 +2,31 @@
   <img src="assets/deep-learning-compilers-banner.svg" alt="Awesome Deep Learning Compilers" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Deep-Learning-Compilers?style=flat&color=yellow" alt="GitHub Stars"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Deep-Learning-Compilers?style=flat&color=orange" alt="GitHub Forks"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Deep-Learning-Compilers" alt="Last Commit"></a>
+</p>
+
 # Awesome-Deep-Learning-Compilers
 
-## Top Deep Learning Compilers Ecosystem
+> **The definitive directory of Deep Learning Compilers, Kernel Optimization DSLs, and High-Throughput Inference Engines for AI & Machine Learning Engineers.**
 
+A carefully curated, community-maintained index of enterprise **SaaS optimization platforms** and cutting-edge **open-source deep learning compilers**. Designed for machine learning systems researchers, MLOps practitioners, and inference platform engineers building ultra-low-latency, hardware-accelerated AI infrastructure across GPUs, CPUs, TPUs, NPUs, and FPGAs.
 
+### 🔍 Quick Search & Hardware Taxonomy
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Model Optimization, Hardware Acceleration & Production Inference*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Deep Learning Compilers**. These tools enable developers to transform trained models into optimized, hardware-specific executables—from graph-level optimizations and operator fusion to quantization and memory planning—so that inference runs faster and cheaper on CPUs, GPUs, and specialized accelerators.
-
-
-
-**Examples** include Apache TVM, NVIDIA TensorRT, ONNX Runtime, Intel OpenVINO, Triton Inference Server, Apple Core ML, AWS Neuron, Qualcomm SNPE, Vitis AI, and TensorFlow Lite (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, cross-platform compilation, and open inference infrastructure—ideal for ML engineers, platform teams, and organizations seeking transparent, vendor-independent model deployment.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
+| Hardware Target / Acceleration Stack | Leading Open-Source Compilers & Runtimes | Enterprise & Cloud Solutions |
+| :--- | :--- | :--- |
+| **NVIDIA GPUs** (Blackwell, Hopper, Ada, Ampere) | [TensorRT](https://github.com/NVIDIA/TensorRT), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [PyTorch Inductor](https://github.com/pytorch/pytorch), [OpenAI Triton](https://github.com/triton-lang/triton), [vLLM](https://github.com/vllm-project/vllm), [SGLang](https://github.com/sgl-project/sglang) | [NVIDIA AI Enterprise](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/), [Modular MAX](https://www.modular.com/max) |
+| **Apple Silicon** (M1–M4 Neural Engine, Metal GPU) | [llama.cpp](https://github.com/ggerganov/llama.cpp), [Apache TVM](https://github.com/apache/tvm), [ONNX Runtime](https://github.com/microsoft/onnxruntime), [Taichi](https://github.com/taichi-dev/taichi) | [Apple Core ML](https://developer.apple.com/documentation/coreml) |
+| **Intel Architectures** (Xeon CPUs, Arc GPUs, Gaudi, NPU) | [Intel OpenVINO](https://github.com/openvinotoolkit/openvino), [ONNX Runtime](https://github.com/microsoft/onnxruntime), [oneDNN / PyTorch](https://github.com/pytorch/pytorch) | Intel Tiber Developer Cloud |
+| **AMD Platforms** (ROCm GPUs, Instinct, Xilinx FPGAs) | [Vitis AI](https://github.com/Xilinx/Vitis-AI), [vLLM ROCm](https://github.com/vllm-project/vllm), [IREE](https://github.com/iree-org/iree), [Apache TVM](https://github.com/apache/tvm) | AMD ROCm Enterprise Solutions |
+| **Mobile & Embedded** (ARM NEON, Hexagon DSP, Vulkan) | [ncnn](https://github.com/Tencent/ncnn), [MNN](https://github.com/alibaba/MNN), [TNN](https://github.com/Tencent/TNN), [microTVM](https://github.com/apache/tvm) | [Qualcomm AI Hub](https://aihub.qualcomm.com/) |
+| **Custom ASICs & Cloud Accelerators** (TPU, Inferentia) | [OpenXLA](https://github.com/openxla/xla), [IREE](https://github.com/iree-org/iree), [BladeDISC](https://github.com/alibaba/BladeDISC) | [AWS Neuron](https://aws.amazon.com/machine-learning/neuron/) |
 
 
 ## Table of Contents
