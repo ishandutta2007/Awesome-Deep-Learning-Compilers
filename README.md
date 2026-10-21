@@ -10,6 +10,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Deep-Learning-Compilers?style=flat&color=orange" alt="GitHub Forks"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Deep-Learning-Compilers" alt="Last Commit"></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 # 🚀 Awesome-Deep-Learning-Compilers
