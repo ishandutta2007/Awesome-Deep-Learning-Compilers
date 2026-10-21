@@ -32,6 +32,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -41,6 +42,10 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [Disclaimer](#disclaimer)
 
 
+
+## Sector Overview & Market Dynamics
+
+The global AI compiler and kernel optimization market is estimated at **$310M–$330M in 2026** (projected to reach over **$4.0B by 2035 at a 32.1% CAGR** as part of the broader $175B+ AI acceleration & inference infrastructure market). The sector is **highly concentrated and winner-take-most** among silicon hyperscalers and GPU giants (NVIDIA, Apple, Amazon AWS, and Qualcomm) who tightly couple proprietary compilers to their hardware to maintain platform moats, while an innovative tier of independent compiler platforms (such as Modular MAX) and open intermediate standards (MLIR, TVM, Triton) actively compete to unify and desegregate cross-hardware deployment.
 
 ## SaaS/Hosted Platforms
 
