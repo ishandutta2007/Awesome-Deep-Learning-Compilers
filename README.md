@@ -1,4 +1,6 @@
-# Awesome-Deep-Learning-Compilers
+<p align="center">
+  <img src="assets/deep-learning-compilers-banner.svg" alt="Awesome Deep Learning Compilers" width="100%">
+</p>
 
 # Awesome-Deep-Learning-Compilers
 
