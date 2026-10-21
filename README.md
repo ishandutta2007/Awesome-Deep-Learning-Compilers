@@ -44,31 +44,13 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **NVIDIA TensorRT (Commercial Support)**
-
-  **SDK for high-performance deep learning inference on NVIDIA GPUs**. The repository contains the **open-source components** of TensorRT—the core builder and runtime are distributed as pre-built binaries with commercial support available . **The reference for NVIDIA GPU inference**—takes an ONNX model, compiles it into a hardware-specific engine, and picks the fastest available GPU kernel for each layer. **Speedup varies by model, precision, batch size, and GPU**—measure with the Performance Benchmarking tools before quoting numbers.
-
-
-
-- **Apple Core ML**
-
-  **Apple's framework for on-device inference** on iOS, iPadOS, macOS, tvOS, visionOS, and watchOS . **Note**: The compiler and runtime are **closed-source**—you convert models using `coremltools` (open-source Python package) and deploy through Xcode. **The on-device choice** for Apple platforms—optimizes for the CPU, GPU, and Neural Engine while minimizing memory and power consumption . **Runs entirely on-device**—no network connection required, protecting user data privacy .
-
-
-
-- **AWS Neuron**
-
-  **Software stack for high-performance deep learning and generative AI on AWS Inferentia and Trainium instances** . **Note**: Compiler and runtime are **closed-source**—you use the Neuron SDK to compile models for AWS silicon. Features **native PyTorch support**, **vLLM integration** for LLM serving with OpenAI-compatible APIs, **Neuron Explorer** for profiling, and the **Neuron Kernel Interface (NKI)** for custom kernel development . **The AWS-specific choice** for cost-optimized inference on Inferentia instances.
-
-
-
-- **Qualcomm SNPE (Neural Processing SDK)**
-
-  **Qualcomm's SDK for inference on Snapdragon mobile and edge platforms** . **Note**: Proprietary—requires Qualcomm developer account. Models are converted to `.dlc` format using tools like `snpe-tensorflow-to-dlc` for interpretation by SNPE backends . **The Snapdragon choice** for Android and IoT deployments.
-
-
+| Platform / Tool | Provider & Company Size (Valuation / Revenue) | Focus & Hardware Targets | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| [**Apple Core ML**](https://developer.apple.com/documentation/coreml) | **Apple Inc.**<br>• Valuation: ~$3.5 Trillion Market Cap<br>• Revenue: $391.0B (FY24) | On-device inference compiler & execution engine targeting Apple Silicon (Apple Neural Engine, Metal GPU, CPU) across iOS, iPadOS, macOS, and visionOS. | **$99/year** (Apple Developer Program membership for device provisioning, TestFlight, and App Store distribution). | **Free forever** local personal device provisioning via Xcode (deploy to up to 3 personal devices with 7-day provisioning certificate renewal; App Store deployment excluded). |
+| [**NVIDIA AI Enterprise (TensorRT Support)**](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/) | **NVIDIA Corporation**<br>• Valuation: ~$3.3 Trillion Market Cap<br>• Revenue: $96.3B (FY24) | Enterprise deep learning compiler and inference runtime with production SLA, continuous kernel autotuning, certified NGC containers, and TensorRT-LLM support. | **$4,500/GPU/year** (Standard enterprise software license) or **$1.00/GPU-hour** on cloud marketplaces (AWS, Azure, GCP). | **90-day free trial** evaluation license via NVIDIA NGC (full access to NVIDIA AI Enterprise software stack, TensorRT containers, and enterprise documentation). |
+| [**AWS Neuron**](https://aws.amazon.com/machine-learning/neuron/) | **Amazon.com, Inc. (AWS)**<br>• Valuation: ~$2.1 Trillion Market Cap<br>• Revenue: $574.8B (FY24) | Cloud compiler & runtime SDK tailored for AWS Inferentia (Inf1/Inf2) and Trainium (Trn1/Trn2) custom AI accelerators. Integrates with PyTorch and vLLM. | **$0.758/hour** (On-demand `inf2.xlarge` instance in us-east-1 with 1 Inferentia2 chip, 4 vCPUs, 16 GiB memory). | **12-month AWS Free Tier** (750 hrs/mo `t2.micro`/`t3.micro`); 0 free accelerator hours on Inf2, but eligible for **$300 proof-of-concept credits** via AWS Free Credit programs (valid 90 days). |
+| [**Qualcomm AI Hub (SNPE / QNN)**](https://aihub.qualcomm.com/) | **Qualcomm Incorporated**<br>• Valuation: ~$190 Billion Market Cap<br>• Revenue: $38.9B (FY24) | Cloud-hosted compiler, quantizer, and profiling platform to deploy and benchmark optimized models on physical Snapdragon mobile/edge silicon and NPU/Hexagon DSPs. | **$0.00** (Community Access); Enterprise dedicated hardware fleet testing and private bench farm starts at **$2,000/month**. | **Free forever** community access with up to 5 concurrent queued device profiling and compilation jobs across hosted Snapdragon devices (8 Gen 2/3/4, X Elite) and unlimited format conversions. |
+| [**Modular MAX Platform**](https://www.modular.com/max) | **Modular Inc.**<br>• Valuation: ~$600 Million<br>• Series A Funding | Unified AI compiler framework and execution runtime (built on Mojo) delivering cross-hardware inference acceleration across heterogeneous CPUs and GPUs. | **$0.00** (MAX Developer Edition); Cloud endpoints start at **$0.05 / 1M input tokens** and **$0.15 / 1M output tokens**; BYOC enterprise starts at **$5,000/month**. | **Free forever** MAX Developer Edition for local workstation/single-machine usage with full Mojo compiler access and containers under 1GB footprint. |
 
 ## Open-Source GitHub Projects
 
