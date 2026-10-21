@@ -151,11 +151,5 @@ We welcome contributions from ML engineers, systems researchers, and hardware ar
 
 Let's make Deep Learning Compilers more open, data-driven, and hardware-aware.
 
-## ⭐ Star History
-
-<a href="https://star-history.com/#ishandutta2007/Awesome-Deep-Learning-Compilers&Timeline" align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Deep-Learning-Compilers_growth.svg">
-    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Deep-Learning-Compilers_growth.svg">
-  </picture>
-</a>
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Deep-Learning-Compilers&type=date&legen==top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Deep-Learning-Compilers&type=date&legend=top-left)
