@@ -59,70 +59,64 @@ The global AI compiler and kernel optimization market is estimated at **$310M–
 
 ## Open-Source GitHub Projects
 
+Curated open-source deep learning compilers, kernel optimization DSLs, inference runtimes, and high-performance execution engines—sorted in descending order of GitHub community stars.
 
+- [**llama.cpp**](https://github.com/ggerganov/llama.cpp) [![GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers)
+  **Port of Facebook's LLaMA model in pure C/C++** (MIT). **The reference standard for quantized CPU and edge inference**. Features zero-dependency C/C++ architecture, state-of-the-art k-quants (2-bit to 8-bit integer quantization), and hardware acceleration across Apple Metal, ARM NEON, AVX-512, CUDA, and SYCL. **Best for**: on-device, local edge, and CPU-optimized LLM execution.
 
-- **Apache TVM**
+- [**PyTorch (torch.compile / Inductor / TorchDynamo)**](https://github.com/pytorch/pytorch) [![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)
+  **Tensors and Dynamic neural networks in Python with strong GPU acceleration** (BSD-3-Clause). Introduces **`torch.compile`**, powered by **TorchDynamo** for Python frame capture, **AOTAutograd** for ahead-of-time graph tracing, and **TorchInductor** as the deep learning compiler generating optimized OpenAI Triton and C++ kernels. **Best for**: transparent out-of-the-box PyTorch training and inference compilation with zero code refactoring.
 
-  **Open Machine Learning Compiler Framework** (Apache-2.0) — **the most comprehensive open-source DL compiler** . **13,500 GitHub stars** and **1,020 contributors** . **Python-first development** enables quick customization of compiler pipelines; **universal deployment** brings models into minimum deployable modules . **Cross-level design** with **TensorIR** for tensor-level representation and **Relax** for graph-level representation—jointly optimizing computational graphs, tensor programs, and libraries . **Targets CPUs, GPUs, and specialized accelerators**—Metal, Vulkan, OpenCL, ROCm, CUDA, and more . **The foundation for building domain-specific vertical compilers** (e.g., for LLMs) . **Best for**: teams wanting a fully open, hackable compiler stack that targets diverse hardware without vendor lock-in.
+- [**vLLM**](https://github.com/vllm-project/vllm) [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
+  **A high-throughput and memory-efficient inference and serving engine for LLMs** (Apache-2.0). **The production gold standard for enterprise LLM serving**. Pioneers **PagedAttention** for near-zero memory waste in KV caching, continuous batching, chunked prefill, and native OpenAI-compatible API serving. Integrates with FlashAttention, FlashInfer, and custom Triton kernels. **Best for**: high-concurrency LLM and vision-language model serving on NVIDIA, AMD ROCm, and AWS Neuron GPUs.
 
+- [**SGLang**](https://github.com/sgl-project/sglang) [![GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers)
+  **SGLang is a fast serving framework for large language models and vision language models** (Apache-2.0). Features **RadixAttention** for automatic KV cache reuse across multi-turn chats and shared prefixes, structured speculative decoding, and optimized execution pipelines. **Best for**: complex reasoning workflows, structured JSON generation, agentic multi-turn conversations, and ultra-high token throughput.
 
+- [**Taichi**](https://github.com/taichi-dev/taichi) [![GitHub stars](https://img.shields.io/github/stars/taichi-dev/taichi?style=social&color=white)](https://github.com/taichi-dev/taichi/stargazers)
+  **Productive & portable high-performance programming language for machine learning and graphics** (Apache-2.0). A high-performance domain-specific compiler embedded in Python that compiles imperative tensor operations directly to CUDA, Metal, Vulkan, and CPU vector instructions. **Best for**: custom differentiable physics, sparse neural networks, and high-performance kernel compilation.
 
-- **ONNX Runtime**
+- [**ncnn**](https://github.com/Tencent/ncnn) [![GitHub stars](https://img.shields.io/github/stars/Tencent/ncnn?style=social&color=white)](https://github.com/Tencent/ncnn/stargazers)
+  **High-performance neural network inference computing framework optimized for mobile platforms** (BSD-3-Clause). Developed by Tencent, ncnn is written in pure C++ with zero external dependencies, featuring extreme ARM NEON assembly optimizations, multi-core parallel scheduling, and Vulkan GPU acceleration. **Best for**: ultra-lightweight mobile applications, embedded IoT microcontrollers, and real-time vision on consumer hardware.
 
-  **Cross-platform, high-performance ML inferencing and training accelerator** (MIT) . **The most widely deployed open-source inference runtime**. **Supports CPU, GPU, and specialized execution providers** including OpenVINO, QNN (Qualcomm), DirectML, TensorRT, and CoreML. **Microsoft services like Bing, Office, and Azure AI use ONNX Runtime**. **The portability choice**—one model format runs across platforms and hardware. **Best for**: teams wanting broad hardware support without rewriting models per platform.
+- [**ONNX Runtime**](https://github.com/microsoft/onnxruntime) [![GitHub stars](https://img.shields.io/github/stars/microsoft/onnxruntime?style=social&color=white)](https://github.com/microsoft/onnxruntime/stargazers)
+  **Cross-platform, high-performance ML inferencing and training accelerator** (MIT). **The most widely deployed enterprise inference runtime**. Supports unified execution providers (EPs) including NVIDIA TensorRT, Intel OpenVINO, AMD ROCm, Qualcomm QNN, DirectML, and Apple Core ML. Powering production Microsoft services like Bing, Microsoft 365, and Azure AI. **Best for**: cross-platform portability without vendor lock-in.
 
+- [**OpenAI Triton**](https://github.com/triton-lang/triton) [![GitHub stars](https://img.shields.io/github/stars/triton-lang/triton?style=social&color=white)](https://github.com/triton-lang/triton/stargazers)
+  **Development environment for parallel programming and custom GPU kernel compilation** (MIT). A Python-based language and compiler that enables developers with no CUDA experience to write highly efficient GPU kernels that match or exceed vendor libraries. Backed by OpenAI, Meta, and Microsoft, and used as the primary backend compiler for PyTorch Inductor. **Best for**: writing custom fused attention, GEMM, and normalization kernels.
 
+- [**MNN (Alibaba)**](https://github.com/alibaba/MNN) [![GitHub stars](https://img.shields.io/github/stars/alibaba/MNN?style=social&color=white)](https://github.com/alibaba/MNN/stargazers)
+  **Blazing-fast, lightweight deep learning inference engine and compiler** (Apache-2.0). Alibaba's flagship mobile inference framework, heavily battle-tested on the Taobao app across hundreds of millions of daily active devices. Features comprehensive graph optimization, geometric computing, and hardware acceleration on ARM, OpenCL, and Vulkan. **Best for**: mobile and embedded client-side deep learning inference.
 
-- **Intel OpenVINO**
+- [**TensorRT-LLM**](https://github.com/NVIDIA/TensorRT-LLM) [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers)
+  **NVIDIA TensorRT-LLM provides users with an easy-to-use Python API to compile and run large language models** (Apache-2.0). Employs state-of-the-art kernel fusion, FP8/FP4 quantization, in-flight batching, and tensor parallelism across NVIDIA Hopper, Ada Lovelace, and Blackwell GPUs. **Best for**: extracting the absolute maximum LLM throughput and lowest latency from NVIDIA GPU infrastructure.
 
-  **Open-source toolkit for optimizing and deploying AI inference** (Apache-2.0) . **The Intel hardware choice**. **Optimizes inference across Intel CPUs, integrated GPUs, and VPUs**. **OpenVINO 2026** removed the deprecated `openvino.runtime` namespace, requires **AVX2 as minimum CPU requirement**, and **discontinued the Model Optimizer** in favor of new conversion methods . **GenAI support** covers LLMs and diffusion models with reduced runtime footprint. **Best for**: teams deploying on Intel hardware who want vendor-optimized inference without CUDA dependency.
+- [**Apache TVM**](https://github.com/apache/tvm) [![GitHub stars](https://img.shields.io/github/stars/apache/tvm?style=social&color=white)](https://github.com/apache/tvm/stargazers)
+  **Open Machine Learning Compiler Framework for CPUs, GPUs, and Machine Learning Accelerators** (Apache-2.0). **The foundational open-source deep learning compiler framework**. Employs a cross-level compiler architecture combining **TensorIR** for tensor program optimization and **Relax** for graph-level transformations. Compiles models to minimal standalone executables across CUDA, ROCm, Vulkan, Metal, OpenCL, and microcontrollers via microTVM. **Best for**: teams seeking an open, vendor-neutral, hackable compilation stack spanning edge to datacenter.
 
+- [**NVIDIA TensorRT (Open-Source Components)**](https://github.com/NVIDIA/TensorRT) [![GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT?style=social&color=white)](https://github.com/NVIDIA/TensorRT/stargazers)
+  **NVIDIA TensorRT is an SDK for high-performance deep learning inference** (Apache-2.0 for open-source components). Houses open-source parsers (ONNX parser), custom plugins, sample applications, and PyTorch bindings (Torch-TensorRT) that accompany the proprietary TensorRT core compilation engine. **Best for**: developers targeting peak inference latency on NVIDIA GPUs with custom plugin requirements.
 
+- [**Triton Inference Server**](https://github.com/triton-inference-server/server) [![GitHub stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers)
+  **Enterprise multi-framework inference serving solution optimized for CPUs and GPUs** (BSD-3-Clause). Provides production HTTP/REST and gRPC endpoints, dynamic batching, concurrent model execution, model pipelining (Ensemble), and model metrics. Seamlessly orchestrates backends including TensorRT, ONNX Runtime, OpenVINO, PyTorch, and vLLM. **Best for**: unified production serving architecture across mixed hardware fleets.
 
-- **NVIDIA TensorRT (Open-Source Components)**
+- [**Intel OpenVINO**](https://github.com/openvinotoolkit/openvino) [![GitHub stars](https://img.shields.io/github/stars/openvinotoolkit/openvino?style=social&color=white)](https://github.com/openvinotoolkit/openvino/stargazers)
+  **Open-source toolkit for optimizing and deploying deep learning models on Intel architectures** (Apache-2.0). Maximizes throughput across Intel CPUs (AVX2/AVX-512/AMX), integrated GPUs, discrete Intel Arc GPUs, and Intel NPUs. Features advanced graph compilation, automatic INT8/INT4 quantization with NNCF, and optimized GenAI pipelines. **Best for**: edge and enterprise deployments committed to Intel silicon.
 
-  **High-performance deep learning inference on NVIDIA GPUs** (Apache-2.0 for the open components) . **The open-source parsers, plugins, and samples** that accompany the proprietary TensorRT core. **The TensorRT ecosystem** includes **ONNX-TensorRT** (2,888 stars) for ONNX parsing and **pytorch/TensorRT** (2,473 stars) for PyTorch/TorchScript compilation . **Best for**: teams already committed to NVIDIA GPUs who want maximum inference performance.
+- [**TNN (Tencent)**](https://github.com/Tencent/TNN) [![GitHub stars](https://img.shields.io/github/stars/Tencent/TNN?style=social&color=white)](https://github.com/Tencent/TNN/stargazers)
+  **Uniform deep learning inference framework customized for mobile devices** (BSD-3-Clause). Features cross-platform acceleration targeting Android, iOS, Linux, and Windows, with high-performance kernel tuning for ARM CPU, Mali GPU, Adreno GPU, and Apple Metal. **Best for**: consumer mobile deployments requiring cross-platform compatibility.
 
+- [**OpenXLA (XLA)**](https://github.com/openxla/xla) [![GitHub stars](https://img.shields.io/github/stars/openxla/xla?style=social&color=white)](https://github.com/openxla/xla/stargazers)
+  **Accelerated Linear Algebra (XLA) compiler for deep learning and machine learning** (Apache-2.0). An open-source domain-specific compiler for linear algebra that accelerates models in JAX, TensorFlow, and PyTorch (via PyTorch/XLA). Powers Google Cloud TPU infrastructure and delivers automated operator fusion and memory allocation across GPUs and TPUs. **Best for**: JAX workloads, large-scale TPU training/inference clusters, and custom ASIC hardware targets.
 
+- [**IREE**](https://github.com/iree-org/iree) [![GitHub stars](https://img.shields.io/github/stars/iree-org/iree?style=social&color=white)](https://github.com/iree-org/iree/stargazers)
+  **Intermediate Representation Execution Environment: Retargetable MLIR-based compiler and runtime** (Apache-2.0). Built entirely upon LLVM/MLIR, IREE lowers high-level machine learning models (from PyTorch, JAX, TFLite, and ONNX) into unified hardware-specific binaries for Vulkan, SPIR-V, Metal, CUDA, ROCm, and CPU SIMD. **Best for**: hardware vendors building compiler backends and teams desiring retargetable compilation.
 
-- **Triton Inference Server**
+- [**Vitis AI (AMD/Xilinx)**](https://github.com/Xilinx/Vitis-AI) [![GitHub stars](https://img.shields.io/github/stars/Xilinx/Vitis-AI?style=social&color=white)](https://github.com/Xilinx/Vitis-AI/stargazers)
+  **Integrated Development Environment for AI inference acceleration on AMD adaptive platforms** (Apache-2.0). Provides model quantizers, graph optimizers, and Deep Learning Processor Unit (DPU) overlays tailored for AMD adaptable SoCs, Versal AI engines, and Alveo Data Center accelerator cards. **Best for**: FPGA-based embedded vision, industrial IoT, and real-time deterministic inference.
 
-  **Cloud inferencing solution optimized for both CPUs and GPUs** (BSD-3-Clause) . **The serving layer**. **Provides an inference service via HTTP or gRPC endpoint**—remote clients request inference for any model managed by the server . **Edge deployment available as a shared library**—full server functionality embedded directly in an application . **Supports TensorRT, PyTorch, ONNX, vLLM, and Python backends** . **Best for**: teams needing a production serving layer that handles model management, batching, and multi-framework backends.
-
-
-
-- **TensorFlow Lite**
-
-  **TensorFlow's lightweight solution for mobile and embedded devices** (Apache-2.0). **The mobile deployment standard**. **Converts TensorFlow models to a compact FlatBuffer format** optimized for on-device inference. **Supports Android, iOS, and embedded Linux** with hardware acceleration via **GPU delegates, NNAPI, and Core ML delegates**. **Best for**: teams deploying TensorFlow models to mobile and edge devices.
-
-
-
-- **Vitis AI (AMD/Xilinx)**
-
-  **Integrated Development Environment for AI inference acceleration on AMD adaptable platforms** (Apache-2.0) . **The FPGA-based choice**. **Optimized IP, tools, libraries, and models** for AI acceleration on AMD adaptable SoCs and Alveo Data Center accelerator cards . **Best for**: teams deploying on FPGA-based acceleration.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **vLLM** — **High-throughput LLM inference engine** (Apache-2.0). **The production default for LLM serving**. **PagedAttention** for KV cache management, **continuous batching**, and **OpenAI-compatible API**. **Best for**: serving LLMs at scale on GPU.
-
-- **llama.cpp** — **CPU, GPU, and Metal inference** (MIT). **The reference for quantized CPU serving**. **Widest model support** and **full control over quantization and threading**. **Best for**: edge, embedded, and CPU-only deployments.
-
-- **Glow** — **Machine learning compiler and execution engine** (Apache-2.0). **Note**: **Repository archived July 1, 2025**. **Historical interest only**—do not adopt for new projects.
-
-- **MNN (Alibaba)** — **Blazing-fast, lightweight inference engine** (Apache-2.0). **Best for**: mobile and embedded inference with Alibaba's production validation.
-
-- **TNN (Tencent)** — **Uniform deep learning inference framework** (BSD-3-Clause). **Best for**: teams wanting a production-proven mobile inference framework.
-
-- Community **n8n** workflows for model compilation pipeline automation and inference alerting.
-
-
-
-**Frameworks for building custom systems**: Combine **Apache TVM** for cross-hardware compilation with **ONNX Runtime** for portability, **TensorRT** for NVIDIA GPU performance, **OpenVINO** for Intel optimization, and **Triton Inference Server** for production serving—creating a comprehensive inference stack that spans development to deployment.
-
+- [**BladeDISC (Alibaba)**](https://github.com/alibaba/BladeDISC) [![GitHub stars](https://img.shields.io/github/stars/alibaba/BladeDISC?style=social&color=white)](https://github.com/alibaba/BladeDISC/stargazers)
+  **End-to-end DynamIc Shape Compiler for machine learning workloads** (Apache-2.0). An MLIR-based dynamic shape deep learning compiler supporting both TensorFlow and PyTorch frontends, optimized for GPUs and x86 CPUs with dynamic input dimensions and runtime shape variation. **Best for**: e-commerce and search workloads where dynamic sequence lengths cause overhead in static compilers.
 
 
 ## How to Contribute
