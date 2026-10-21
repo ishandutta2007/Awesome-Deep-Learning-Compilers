@@ -39,6 +39,7 @@ A carefully curated, community-maintained index of enterprise **SaaS optimizatio
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [⚖️ Disclaimer & Engineering Trade-Offs](#️-disclaimer--engineering-trade-offs)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 - [⭐ Star History](#-star-history)
 
 
@@ -150,6 +151,25 @@ We welcome contributions from ML engineers, systems researchers, and hardware ar
 **Made for ML engineers, platform teams, and organizations building transparent inference solutions.**  
 
 Let's make Deep Learning Compilers more open, data-driven, and hardware-aware.
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and supporting the **Awesome Deep Learning Compilers** ecosystem!
+
+Maintaining a high-quality, up-to-date directory of compiler toolchains, inference acceleration platforms, and kernel DSLs requires continuous testing, research, and curation. If you find this project valuable for your research, team, or production pipelines, please consider supporting us:
+
+- ⭐ **Star this repository** to improve visibility across the open-source AI community.
+- 🍴 **Fork and contribute** your favorite compiler frameworks, backends, or benchmarks.
+- 📢 **Share with colleagues** working on deep learning inference, model quantization, and ML hardware acceleration.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing development and maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="left">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%99%A5-ea4aaa?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor on GitHub" />
+  </a>
+</p>
+
+---
 
 ##  Star History
 [![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Deep-Learning-Compilers&type=date&legen==top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Deep-Learning-Compilers&type=date&legend=top-left)
