@@ -11,7 +11,7 @@
   <a href="https://github.com/ishandutta2007/Awesome-Deep-Learning-Compilers/commits/main"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Deep-Learning-Compilers" alt="Last Commit"></a>
 </p>
 
-# Awesome-Deep-Learning-Compilers
+# 🚀 Awesome-Deep-Learning-Compilers
 
 > **The definitive directory of Deep Learning Compilers, Kernel Optimization DSLs, and High-Throughput Inference Engines for AI & Machine Learning Engineers.**
 
@@ -29,26 +29,25 @@ A carefully curated, community-maintained index of enterprise **SaaS optimizatio
 | **Custom ASICs & Cloud Accelerators** (TPU, Inferentia) | [OpenXLA](https://github.com/openxla/xla), [IREE](https://github.com/iree-org/iree), [BladeDISC](https://github.com/alibaba/BladeDISC) | [AWS Neuron](https://aws.amazon.com/machine-learning/neuron/) |
 
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
+- [🔍 Quick Search & Hardware Taxonomy](#-quick-search--hardware-taxonomy)
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚖️ Disclaimer & Engineering Trade-Offs](#️-disclaimer--engineering-trade-offs)
+- [⭐ Star History](#-star-history)
 
 
-## Sector Overview & Market Dynamics
+
+## 🌐 Sector Overview & Market Dynamics
 
 The global AI compiler and kernel optimization market is estimated at **$310M–$330M in 2026** (projected to reach over **$4.0B by 2035 at a 32.1% CAGR** as part of the broader $175B+ AI acceleration & inference infrastructure market). The sector is **highly concentrated and winner-take-most** among silicon hyperscalers and GPU giants (NVIDIA, Apple, Amazon AWS, and Qualcomm) who tightly couple proprietary compilers to their hardware to maintain platform moats, while an innovative tier of independent compiler platforms (such as Modular MAX) and open intermediate standards (MLIR, TVM, Triton) actively compete to unify and desegregate cross-hardware deployment.
 
-## SaaS/Hosted Platforms
+## 🏢 SaaS & Enterprise Hosted Platforms
 
-| Platform / Tool | Provider & Company Size (Valuation / Revenue) | Focus & Hardware Targets | Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| 🛠️ Platform / Tool | 🏢 Provider & Company Size (Valuation / Revenue) | 🎯 Focus & Hardware Targets | 💰 Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limits |
 | :--- | :--- | :--- | :--- | :--- |
 | [**Apple Core ML**](https://developer.apple.com/documentation/coreml) | **Apple Inc.**<br>• Valuation: ~$3.5 Trillion Market Cap<br>• Revenue: $391.0B (FY24) | On-device inference compiler & execution engine targeting Apple Silicon (Apple Neural Engine, Metal GPU, CPU) across iOS, iPadOS, macOS, and visionOS. | **$99/year** (Apple Developer Program membership for device provisioning, TestFlight, and App Store distribution). | **Free forever** local personal device provisioning via Xcode (deploy to up to 3 personal devices with 7-day provisioning certificate renewal; App Store deployment excluded). |
 | [**NVIDIA AI Enterprise (TensorRT Support)**](https://www.nvidia.com/en-us/data-center/products/ai-enterprise/) | **NVIDIA Corporation**<br>• Valuation: ~$3.3 Trillion Market Cap<br>• Revenue: $96.3B (FY24) | Enterprise deep learning compiler and inference runtime with production SLA, continuous kernel autotuning, certified NGC containers, and TensorRT-LLM support. | **$4,500/GPU/year** (Standard enterprise software license) or **$1.00/GPU-hour** on cloud marketplaces (AWS, Azure, GCP). | **90-day free trial** evaluation license via NVIDIA NGC (full access to NVIDIA AI Enterprise software stack, TensorRT containers, and enterprise documentation). |
@@ -56,7 +55,7 @@ The global AI compiler and kernel optimization market is estimated at **$310M–
 | [**Qualcomm AI Hub (SNPE / QNN)**](https://aihub.qualcomm.com/) | **Qualcomm Incorporated**<br>• Valuation: ~$190 Billion Market Cap<br>• Revenue: $38.9B (FY24) | Cloud-hosted compiler, quantizer, and profiling platform to deploy and benchmark optimized models on physical Snapdragon mobile/edge silicon and NPU/Hexagon DSPs. | **$0.00** (Community Access); Enterprise dedicated hardware fleet testing and private bench farm starts at **$2,000/month**. | **Free forever** community access with up to 5 concurrent queued device profiling and compilation jobs across hosted Snapdragon devices (8 Gen 2/3/4, X Elite) and unlimited format conversions. |
 | [**Modular MAX Platform**](https://www.modular.com/max) | **Modular Inc.**<br>• Valuation: ~$600 Million<br>• Series A Funding | Unified AI compiler framework and execution runtime (built on Mojo) delivering cross-hardware inference acceleration across heterogeneous CPUs and GPUs. | **$0.00** (MAX Developer Edition); Cloud endpoints start at **$0.05 / 1M input tokens** and **$0.15 / 1M output tokens**; BYOC enterprise starts at **$5,000/month**. | **Free forever** MAX Developer Edition for local workstation/single-machine usage with full Mojo compiler access and containers under 1GB footprint. |
 
-## Open-Source GitHub Projects
+## 💻 Open-Source GitHub Projects
 
 Curated open-source deep learning compilers, kernel optimization DSLs, inference runtimes, and high-performance execution engines—sorted in descending order of GitHub community stars.
 
@@ -118,41 +117,27 @@ Curated open-source deep learning compilers, kernel optimization DSLs, inference
   **End-to-end DynamIc Shape Compiler for machine learning workloads** (Apache-2.0). An MLIR-based dynamic shape deep learning compiler supporting both TensorFlow and PyTorch frontends, optimized for GPUs and x86 CPUs with dynamic input dimensions and runtime shape variation. **Best for**: e-commerce and search workloads where dynamic sequence lengths cause overhead in static compilers.
 
 
-## How to Contribute
+## 🤝 How to Contribute
 
+We welcome contributions from ML engineers, systems researchers, and hardware architects!
 
+1. 🍴 **Fork the repository** on GitHub.
+2. 📝 **Add or edit entries** in [`README.md`](README.md) adhering to existing table/list formatting.
+3. 🔗 **Include clear details**: project name, official documentation/repo link, star badge, and target silicon backends.
+4. 🚀 **Submit a Pull Request** with a succinct description of your addition.
 
-1. Fork the repo.
+⭐ **Star the repo** if you find it useful for your production AI stack!
 
-2. Add/edit entries in `README.md` (follow existing format).
+## ⚖️ Disclaimer & Engineering Trade-Offs
 
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Deep learning compilers must be evaluated for **hardware target coverage**, **model format support**, **quantization capabilities**, and **licensing** (fully open vs. open components around proprietary cores).
-
-- **The "compiler vs. runtime vs. server" distinction matters.** **Compilers** (TVM, TensorRT, OpenVINO) transform models into optimized executables for specific hardware. **Runtimes** (ONNX Runtime, vLLM, llama.cpp) execute models. **Servers** (Triton) provide HTTP/gRPC endpoints for production serving. **Most production stacks combine all three**.
-
-- **Apache TVM is the most comprehensive fully open compiler option.** **13,500 stars, 1,020 contributors, Apache-2.0** . **TensorIR + Relax cross-level design** jointly optimizes graphs, tensor programs, and libraries . **The trade-off is complexity**—TVM has a steeper learning curve than vendor-specific toolchains. **Choose TVM when portability across diverse hardware matters more than turnkey simplicity.**
-
-- **ONNX Runtime is the portability standard.** **The trade-off**: broad hardware coverage, but not always the absolute peak performance that a vendor-specific compiler tuned for one chip can deliver.
-
-- **Vendor-specific compilers deliver peak performance at the cost of lock-in.** **TensorRT** picks the fastest GPU kernel per layer but only runs on NVIDIA GPUs . **OpenVINO** optimizes for Intel hardware but requires **AVX2 minimum** in 2026 and has **discontinued the Model Optimizer** . **Core ML** targets Apple silicon exclusively . **AWS Neuron** targets Inferentia and Trainium . **Choose vendor compilers when you've committed to that hardware**—use TVM or ONNX Runtime when you need to hedge.
-
-- Self-hosted open-source solutions require proper GPU/hardware provisioning, model validation, and ongoing maintenance. **Compiler optimizations can introduce numerical differences**—validate outputs against the reference implementation before production deployment.
+- 🔍 **Community-Curated Directory**: This guide is maintained by the AI systems community—not an official endorsement of any vendor or framework.
+- 📐 **Evaluation Criteria**: Deep learning compilers must be critically assessed for **hardware target coverage**, **dynamic shape support**, **quantization accuracy**, and **licensing** (open Apache-2.0/MIT vs. proprietary vendor runtimes).
+- 🧩 **Compiler vs. Runtime vs. Serving Layer**:
+  - ⚙️ **Compilers** (*Apache TVM, TensorRT, OpenVINO, OpenXLA, IREE*): Transform computational graphs and kernel IRs into hardware-optimized machine code.
+  - 🏎️ **Runtimes & Execution Engines** (*ONNX Runtime, vLLM, SGLang, llama.cpp*): Manage KV cache allocations, execution scheduling, and low-precision inference loops.
+  - 🌐 **Serving Orchestrators** (*Triton Inference Server*): Expose HTTP/gRPC APIs, handle dynamic micro-batching, and manage multi-model routing across server fleets.
+- 🔄 **Portability vs. Peak Speed**: Fully vendor-neutral compilers hedge against GPU supply constraints, whereas vendor-native compilers unlock peak single-chip FLOPS.
+- 🧪 **Numerical Validation**: Aggressive graph transformations, operator fusions, and low-bit quantization (FP8, INT4, NF4) can introduce numerical drift—always validate accuracy against uncompiled reference models before production deployment.
 
 
 
