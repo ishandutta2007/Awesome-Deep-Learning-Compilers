@@ -183,3 +183,12 @@ Star the repo if you find it useful!
 **Made for ML engineers, platform teams, and organizations building transparent inference solutions.**  
 
 Let's make Deep Learning Compilers more open, data-driven, and hardware-aware.
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Deep-Learning-Compilers&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Deep-Learning-Compilers_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Deep-Learning-Compilers_growth.svg">
+  </picture>
+</a>
